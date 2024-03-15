@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/kaba"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KabarakUniversity"
+        tools:targetApi="31">
+        <activity
+            android:name=".ViewGradeDetails"
+            android:exported="false" />
+        <activity
+            android:name=".RepliedDetails"
+            android:exported="false" />
+        <activity
+            android:name=".RepliedMissingMarks"
+            android:exported="false" />
+        <activity
+            android:name=".MissingMarkDetails"
+            android:exported="false" />
+        <activity
+            android:name=".MissingMarksApplication"
+            android:exported="false" />
+        <activity
+            android:name=".AppliedDetails"
+            android:exported="false" />
+        <activity
+            android:name=".ApplyDetails"
+            android:exported="false" />
+        <activity
+            android:name=".RegisteredUnits"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterUnit"
+            android:exported="false" />
+        <activity
+            android:name=".ViewUnits"
+            android:exported="false" />
+        <activity
+            android:name=".UnitsDetails"
+            android:exported="false" />
+        <activity
+            android:name=".AddedUnits"
+            android:exported="false" />
+        <activity
+            android:name=".AddUnit"
+            android:exported="false" />
+        <activity
+            android:name=".AppliedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AwardMarksActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewGradeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ApplyMissingMarksActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LecturerDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudentDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

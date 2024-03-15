@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/maroon"
+    tools:context=".MissingMarkDetails">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:elevation="5dp">
+
+    <TextView
+        android:id="@+id/titleHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
+        android:text="KABARAK UNIVERSITY"
+        android:textColor="@color/golden"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/RL_Form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_below="@+id/titleHome"
+        android:padding="3dp"
+        android:paddingTop="5dp"
+        android:background="@drawable/btn_bg"
+        android:elevation="3dp">
+
+        <TextView
+            android:id="@+id/textViewFill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="12dp"
+            android:text="Applied Missing mark"
+            android:textColor="@color/ok_button"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            />
+
+        <View
+            android:id="@+id/splitLine1"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="12dp"
+            android:layout_below="@+id/textViewFill"
+            android:background="@color/maroon" />
+
+        <TextView
+            android:id="@+id/tvRegNo"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/input_bg1"
+            android:ems="10"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_below="@+id/splitLine1"
+            android:hint="Registration Number"
+            android:inputType="text"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:textColor="@color/darkgrey"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:paddingStart="20dp"
+            android:textColorHint="@color/lightgrey" />
+
+        <TextView
+            android:id="@+id/tvStudentName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/input_bg1"
+            android:ems="10"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_below="@+id/tvRegNo"
+            android:hint="Student Name"
+            android:inputType="text"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:textColor="@color/darkgrey"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:paddingStart="20dp"
+            android:textColorHint="@color/lightgrey" />
+
+        <TextView
+            android:id="@+id/tvUnitname"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/input_bg1"
+            android:ems="10"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:hint="Unit Name"
+            android:inputType="text"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:layout_below="@+id/tvStudentName"
+            android:textColor="@color/darkgrey"
+            android:textStyle="bold"
+            android:paddingStart="20dp"
+            android:padding="10dp"
+            android:textColorHint="@color/lightgrey" />
+
+        <TextView
+            android:id="@+id/tvUnitcode"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/input_bg1"
+            android:ems="10"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_below="@+id/tvUnitname"
+            android:hint="Unit Code"
+            android:inputType="text"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:textColor="@color/darkgrey"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:paddingStart="20dp"
+            android:textColorHint="@color/lightgrey" />
+
+        <TextView
+            android:id="@+id/tvStage"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/input_bg1"
+            android:ems="10"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_below="@+id/tvUnitcode"
+            android:hint="Stage"
+            android:inputType="text"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:textColor="@color/darkgrey"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:paddingStart="20dp"
+            android:textColorHint="@color/lightgrey" />
+
+        <TextView
+            android:id="@+id/tvLecturerName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/input_bg1"
+            android:ems="10"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_below="@+id/tvStage"
+            android:hint="Lecturer Name"
+            android:inputType="text"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:textColor="@color/darkgrey"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:paddingStart="20dp"
+            android:textColorHint="@color/lightgrey" />
+
+
+        <TextView
+            android:id="@+id/TV_semester"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvLecturerName"
+            android:text="Examination Semester : "
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:paddingTop="6dp"
+            android:layout_marginBottom="10dp"
+            android:paddingBottom="3dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/lightgrey"/>
+
+        <TextView
+            android:id="@+id/tvExamSem"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:background="@drawable/input_bg1"
+            android:ems="10"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_toRightOf="@+id/TV_semester"
+            android:layout_below="@+id/tvLecturerName"
+            android:inputType="text"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:textColor="@color/darkgrey"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:paddingStart="20dp"
+            android:textColorHint="@color/lightgrey" />
+
+        <TextView
+            android:id="@+id/tvExamYear"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/input_bg1"
+            android:ems="10"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_below="@+id/tvExamSem"
+            android:hint="Examination Year"
+            android:inputType="number"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:textColor="@color/darkgrey"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:paddingStart="20dp"
+            android:textColorHint="@color/lightgrey" />
+
+        <TextView
+            android:id="@+id/TV_ExamType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvExamYear"
+            android:text="Exam Type : "
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:paddingTop="6dp"
+            android:layout_marginBottom="10dp"
+            android:paddingBottom="3dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/lightgrey"/>
+
+
+        <TextView
+            android:id="@+id/tvExamType"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:background="@drawable/input_bg1"
+            android:ems="10"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_toRightOf="@+id/TV_ExamType"
+            android:layout_below="@+id/tvExamYear"
+            android:inputType="text"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:textColor="@color/darkgrey"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:paddingStart="20dp"
+            android:textColorHint="@color/lightgrey" />
+
+        <TextView
+            android:id="@+id/TV_studentLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TV_ExamType"
+            android:text="Student Comment: "
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:paddingTop="6dp"
+            android:layout_marginBottom="10dp"
+            android:paddingBottom="3dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/lightgrey"/>
+
+        <TextView
+            android:id="@+id/tvStudentComment"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/input_bg2"
+            android:ems="10"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_below="@+id/TV_studentLabel"
+            android:hint="Write your comment here..."
+            android:inputType="textMultiLine"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:paddingStart="20dp"
+            android:textColor="@color/darkgrey"
+            android:textStyle="bold"
+            android:textColorHint="@color/lightgrey" />
+
+        <View
+            android:id="@+id/splitLine3"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="12dp"
+            android:layout_below="@+id/tvStudentComment"
+            android:background="@color/ok_button" />
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:id="@+id/LL_Submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/splitLine3"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:orientation="horizontal"
+            android:background="@color/white">
+
+            <LinearLayout
+                android:id="@+id/LL_grade"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/submit_bg"
+                android:elevation="5dp"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/TV_grade"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Grade"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
