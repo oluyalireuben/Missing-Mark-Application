@@ -16,5 +16,6 @@ The Missing Mark Application is a digital grading system designed to address the
 - **Scalability:** Designed to accommodate the growing needs of the university.
 - **Feedback Mechanism:** User feedback incorporated for continuous improvement.
 
-
+## Download App
+[Click here to download the app](https://drive.google.com/file/d/1lthFpJ2G2xLaUkg6zNt_8ZWb8RWe2qvV/view?usp=sharing)
 
